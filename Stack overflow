@@ -1,0 +1,7 @@
+Might be caused by:
+
+Recursion
+fn calls itself -> local var and fn arg are stored on stack, then fill in stack and cause overflow
+
+Large local variables
+When u try to allocate a large array of local var --> overflow
